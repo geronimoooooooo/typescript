@@ -1,1 +1,6 @@
 
+https://devhints.io/typescript
+https://learnxinyminutes.com/docs/typescript/
+https://www.cheatography.com/gregfinzer/cheat-sheets/typescript/
+https://blog.programster.org/typescript-cheatsheet
+https://github.com/frontdevops/typescript-cheat-sheet
