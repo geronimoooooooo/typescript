@@ -17,3 +17,6 @@ https://www.sitepen.com/blog/update-the-definitive-typescript-guide/
 
 https://www.robertcooper.me/get-started-with-typescript-in-2019
 https://flaviocopes.com/typescript/
+
+https://github.com/30-seconds/30-seconds-of-code
+ANGULAR: https://github.com/30-seconds/30-seconds-of-angular#cheat-sheets-and-checklists
