@@ -1,6 +1,6 @@
 # Type assertions
 https://www.typescriptlang.org/docs/handbook/basic-types.html#type-assertions
-Type assertions are a way to tell the compiler “trust me, I know what I’m doing.” A type assertion is like a type cast in other languages.
+<br>Type assertions are a way to tell the compiler “trust me, I know what I’m doing.” A type assertion is like a type cast in other languages.
 
 ```typescript
 let someValue: any = "this is a string";
