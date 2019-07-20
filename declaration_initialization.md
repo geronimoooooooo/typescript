@@ -2,6 +2,7 @@
 
 ```typescript
 let name: string = "John";
+let isDone: boolean = false
 let check = true;
 
 
