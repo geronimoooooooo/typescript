@@ -1,3 +1,5 @@
+http://www.typescriptlang.org/docs/home.html
+https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 
 https://devhints.io/typescript
 https://learnxinyminutes.com/docs/typescript/
@@ -9,3 +11,9 @@ https://github.com/frontdevops/typescript-cheat-sheet
 https://www.tutorialsteacher.com/typescript/for-loop
 https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html
 https://www.tutorialspoint.com/typescript/typescript_arrays.htm
+https://basarat.gitbooks.io/typescript/content/
+
+https://www.sitepen.com/blog/update-the-definitive-typescript-guide/
+
+https://www.robertcooper.me/get-started-with-typescript-in-2019
+https://flaviocopes.com/typescript/
