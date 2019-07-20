@@ -4,3 +4,8 @@ https://learnxinyminutes.com/docs/typescript/
 https://www.cheatography.com/gregfinzer/cheat-sheets/typescript/
 https://blog.programster.org/typescript-cheatsheet
 https://github.com/frontdevops/typescript-cheat-sheet
+
+
+https://www.tutorialsteacher.com/typescript/for-loop
+https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html
+https://www.tutorialspoint.com/typescript/typescript_arrays.htm
