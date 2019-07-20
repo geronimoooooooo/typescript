@@ -21,3 +21,13 @@ let c: Color = Color.Green
 const defaultColor: Color = Color.Red;
 
 ```
+
+
+# Any 
+https://www.typescriptlang.org/docs/handbook/basic-types.html#any
+```typescript
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
+```
+
