@@ -23,3 +23,6 @@ console.log(x[1].substring(1)); // Error, 'number' does not have 'substring'
 
 x[3] = "world"; // Error, Property '3' does not exist on type '[string, number]'.
 console.log(x[5].toString()); // Error, Property '5' does not exist on type '[string, number]'.
+
+let tuple: [number, string, boolean] = [7, "hello", true];
+let [a, b, c] = tuple; // a: number, b: string, c: boolean
