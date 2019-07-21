@@ -26,6 +26,9 @@ console.log(rest); // outputs [ 2, 3, 4 ]
 let [first] = [1, 2, 3, 4];
 console.log(first); // outputs 1
 
+//If your array can hold two different types of objects you can do either of the following:
+var customers: Array<Customer | ExtendedCustomer>;
+var customers: (Customer | ExtendedCustomer)[];
 ```
 
 
