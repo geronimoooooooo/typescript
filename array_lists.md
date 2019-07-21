@@ -1,6 +1,7 @@
 # Array
 ```typescript
 let list: number[] = [1, 2, 3];
+let cards: string[] = ['Visa', 'Maste­rCa­rd'];
 
 `The second way uses a generic array type, Array<elemType>:`
 let list: Array<number> = [1, 2, 3];
