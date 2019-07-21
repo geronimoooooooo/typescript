@@ -19,5 +19,7 @@ https://www.sitepen.com/blog/update-the-definitive-typescript-guide/
 https://www.robertcooper.me/get-started-with-typescript-in-2019
 https://flaviocopes.com/typescript/
 
+Advanced types: https://www.typescriptlang.org/docs/handbook/advanced-types.html
+
 https://github.com/30-seconds/30-seconds-of-code
 ANGULAR: https://github.com/30-seconds/30-seconds-of-angular#cheat-sheets-and-checklists
