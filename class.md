@@ -45,6 +45,31 @@ employee.fullName = "Bob Smith";
 if (employee.fullName) {
     console.log(employee.fullName);
 }
+#################################################################################
+
+class Dog 
+{
+    _name: string = '[Animal]';
+
+    get name(): string { console.log("Using name accessor"); return this._name; }
+    set name(name: string) { console.log("Using name setter"); this._name = name; }
+
+    constructor(name: string) {
+        this._name = name;
+    }
+
+    sayName() {
+        console.log("My name is " + this._name );
+    }
+}
+
+var myDog: Dog = new Dog("Rover");
+myDog.name = "Sally";
+console.log("My dogs name is " + myDog.name);
+
+/*Using name setter
+Using name accessor
+My dogs name is Sally*/
 ```
 
 # Abstract Class
