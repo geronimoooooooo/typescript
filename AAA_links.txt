@@ -1,4 +1,5 @@
 http://www.typescriptlang.org/docs/home.html
+https://howtodoinjava.com/typescript/typescript-tutorial/
 https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 
 https://devhints.io/typescript
