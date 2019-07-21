@@ -4,6 +4,10 @@ let list: number[] = [1, 2, 3];
 
 `The second way uses a generic array type, Array<elemType>:`
 let list: Array<number> = [1, 2, 3];
+
+//If your array can hold two different types of objects you can do either of the following:
+var customers: Array<Customer | ExtendedCustomer>;
+var customers: (Customer | ExtendedCustomer)[];
 ```
 
 
