@@ -11,4 +11,9 @@ function greeter(person: string) {
 }
 
 function add (a: number, b: number) { ... }
+
+function handleCustomers(customers : Customer[]){ ... }
+
+
+
 ```
