@@ -9,6 +9,13 @@ let list: Array<number> = [1, 2, 3];
 //If your array can hold two different types of objects you can do either of the following:
 var customers: Array<Customer | ExtendedCustomer>;
 var customers: (Customer | ExtendedCustomer)[];
+
+// array, written two ways
+let list: number[] = [1,2,3];
+let list2: Array<number> = [1,2,3];
+
+// tuple -- similar to array, but you can specify the types of the contents
+let tuple: [string, number] = ['hello', 23];
 ```
 
 
