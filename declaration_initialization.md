@@ -14,6 +14,10 @@ let fullName: string = `Bob Bobbington`;
 let age: number = 37;
 let sentence: string = `Hello, my name is ${ fullName }.
 
+// Use const keyword for constants
+const numLivesForCat = 9;
+numLivesForCat = 1; // Error
+
 let sentence: string = "Hello, my name is " + fullName + ".\n\n" +
     "I'll be " + (age + 1) + " years old next month.";
 
