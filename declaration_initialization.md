@@ -34,6 +34,18 @@ console.log(first); // outputs 1
 //If your array can hold two different types of objects you can do either of the following:
 var customers: Array<Customer | ExtendedCustomer>;
 var customers: (Customer | ExtendedCustomer)[];
+############################################################
+greeting: string|number;
+  constructor(message: string|number) {
+      if(typeof message =="string"){
+          console.log("str is string");
+      }
+            if(typeof message =="number"){
+          console.log("str is number");
+      }
+    this.greeting = message;
+  }
+  
 ```
 
 
