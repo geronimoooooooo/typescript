@@ -7,3 +7,12 @@ let someValue: any = "this is a string";
 let strLength: number = (<string>someValue).length;
 let strLength: number = (someValue as string).length;
 ```
+###############################################################
+Typescript has a concept of optional attributes/functions. These are denoted with a ? at the end like so:
+interface MyInterface 
+{
+    mandatoryAttribute: string;
+    optionalAttribute?: number;
+    optionalFunction?: Function;
+}
+####################################################################################
