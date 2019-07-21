@@ -5,6 +5,7 @@ let name: string = "John";
 color = 'red';
 let isDone: boolean = false
 let check = true;
+let someObj:     object    = { prop: 'woohoo' }; // non-primitive
 
 let decimal: number = 6;
 let floater: number = 6.6;
