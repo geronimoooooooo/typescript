@@ -20,6 +20,9 @@ for (const i in list) {
 }
 -----------------------------------------
 The difference between for…of and for…in
+for..in returns a list of keys on the object being iterated, 
+whereas for..of returns a list of values of the numeric properties of the object being iterated.
+https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html
 https://imasters.com/development/the-difference-between-for-of-and-for-in/?trace=1519021197&source=single
   
 const numbers = [1,2,3,4,5];
