@@ -1,5 +1,5 @@
 # Array
-```typescript
+
 let list: number[] = [1, 2, 3];
 let cards: string[] = ['Visa', 'Maste­rCa­rd'];
 
@@ -16,7 +16,6 @@ let list2: Array<number> = [1,2,3];
 
 // tuple -- similar to array, but you can specify the types of the contents
 let tuple: [string, number] = ['hello', 23];
-```
 
 
 # Tuple
