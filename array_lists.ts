@@ -37,3 +37,7 @@ console.log(x[5].toString()); // Error, Property '5' does not exist on type '[st
 
 let tuple: [number, string, boolean] = [7, "hello", true];
 let [a, b, c] = tuple; // a: number, b: string, c: boolean
+-------------------------------------------------------
+  Map
+https://howtodoinjava.com/typescript/maps/
+--------------------------------------------------------
