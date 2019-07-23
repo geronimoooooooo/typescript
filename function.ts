@@ -26,7 +26,6 @@ let f4 = (i: number) => { return i * i; }
 // keyword needed
 let f5 = (i: number) => i * i;
 
-```
 ##########################################################
 function disp_details(id:number,name:string,mail_id?:string) { 
    console.log("ID:", id); 
@@ -37,4 +36,13 @@ function disp_details(id:number,name:string,mail_id?:string) {
 }
 disp_details(123,"John");
 disp_details(111,"mary","mary@xyz.com");
+##########################################################
+function function_name(param1[:type],param2[:type] = default_value) { 
+}
+##########################################################
+A parameter cannot be declared optional and default at the same time.
+##########################################################
+##########################################################
+##########################################################
+##########################################################
 ##########################################################
