@@ -52,6 +52,22 @@ function disp(x:any,y?:any):void {
 disp("abc") 
 disp(1,"xyz");
 ##########################################################
-##########################################################
+anonymous function
+                                                 
+var res = function(a:number,b:number) { 
+   return a*b;  
+}; 
+console.log(res(12,2))
+------------------------------------------
+var func = (x)=> { 
+   if(typeof x=="number") { 
+      console.log(x+" is numeric") 
+   } else if(typeof x=="string") { 
+      console.log(x+" is a string") 
+   }  
+} 
+func(12) 
+func("Tom")
+######################################################
 ##########################################################
 ##########################################################
