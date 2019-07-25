@@ -1,6 +1,6 @@
 # Declaration and initialization
 
-```typescript
+
 let name: string = "John";
 color = 'red';
 let isDone: boolean = false
@@ -12,8 +12,11 @@ let floater: number = 6.6;
 
 let fullName: string = `Bob Bobbington`;
 let age: number = 37;
-let sentence: string = `Hello, my name is ${ fullName }.
+let sentence: string = `Hello, my name is ${ fullName }`.
 
+//tuples
+const address: [string, number] = ["Street", 99];
+ 
 // Use const keyword for constants
 const numLivesForCat = 9;
 numLivesForCat = 1; // Error
@@ -46,14 +49,14 @@ greeting: string|number;
     this.greeting = message;
   }
   
-```
+
 
 
 # Any 
 https://www.typescriptlang.org/docs/handbook/basic-types.html#any
-```typescript
+
 let notSure: any = 4;
 notSure = "maybe a string instead";
 notSure = false; // okay, definitely a boolean
-```
+
 
