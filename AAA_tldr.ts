@@ -28,3 +28,12 @@ Alle number in TS sind floating point values.
   if (typeof finalValue == 'string') {
     console.log('finalValue is a string');
   }
+
+const userName = 'Robert';
+const greeting = `Hello I'm ${userName}`;
+
+// array destructering
+  const testResults: number[] = [3.89, 2.99, 1.38];
+  const [result1, result2, result3] = testResults;
+
+  console.log(result1, result2, result3);
