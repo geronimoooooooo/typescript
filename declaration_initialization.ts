@@ -67,3 +67,13 @@ notSure = "maybe a string instead";
 notSure = false; // okay, definitely a boolean
 
 
+// Objects are comprised of key-value pairs.
+let userData: { name: string, age: number } = {
+    name: 'Max',
+    age: 27
+  };
+ userData = {
+    name: 'Robert',
+    age: 24
+  };
+
