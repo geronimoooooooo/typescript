@@ -28,6 +28,11 @@ const address: [string, number] = ["Street", 99];
 const numLivesForCat = 9;
 numLivesForCat = 1; // Error
 
+// union
+let myRealRealAge: number | string = 24;
+myRealRealAge = '24';
+// myRealRealAge = true // Not possible since myRealRealAge only accepts a number or a string.
+
 let sentence: string = "Hello, my name is " + fullName + ".\n\n" +
     "I'll be " + (age + 1) + " years old next month.";
 
