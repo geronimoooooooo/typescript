@@ -23,3 +23,8 @@ Fields which do not require initialisation
 public someUselessValue!: number;
 
 Alle number in TS sind floating point values.
+
+  let finalValue = 'A string';
+  if (typeof finalValue == 'string') {
+    console.log('finalValue is a string');
+  }
