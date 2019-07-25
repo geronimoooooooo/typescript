@@ -14,6 +14,13 @@ let fullName: string = `Bob Bobbington`;
 let age: number = 37;
 let sentence: string = `Hello, my name is ${ fullName }`.
 
+//any
+  let myCar: any = 'BMW';
+  console.log(myCar); // Prints: BMW
+
+  myCar = { brand: 'BMW', series: 3 };
+  console.log(myCar) // Prints: { brand: "BMW", series: 3 }
+
 //tuples
 const address: [string, number] = ["Street", 99];
  
