@@ -1,1 +1,2 @@
 20.7 10:00-   https://www.typescriptlang.org/docs/home.html
+25.7 https://rmolinamir.github.io/typescript-cheatsheet/#generators
