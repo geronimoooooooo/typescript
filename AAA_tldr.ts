@@ -37,3 +37,5 @@ const greeting = `Hello I'm ${userName}`;
   const [result1, result2, result3] = testResults;
 
   console.log(result1, result2, result3);
+
+The never type represents the type of values that never occur. For instance, never is the return type for a function expression or an arrow function expression that always throws an exception or one that never returns.
