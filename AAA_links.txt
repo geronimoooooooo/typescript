@@ -3,6 +3,8 @@ https://www.tutorialspoint.com/typescript/index.htm
 https://howtodoinjava.com/typescript/typescript-tutorial/
 https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 
+https://www.tutorialsteacher.com/typescript/typescript-overview
+
 https://devhints.io/typescript
 https://learnxinyminutes.com/docs/typescript/
 https://www.cheatography.com/gregfinzer/cheat-sheets/typescript/
@@ -24,3 +26,9 @@ Advanced types: https://www.typescriptlang.org/docs/handbook/advanced-types.html
 
 https://github.com/30-seconds/30-seconds-of-code
 ANGULAR: https://github.com/30-seconds/30-seconds-of-angular#cheat-sheets-and-checklists
+
+
+quiz:
+https://www.brainscape.com/subjects/typescript
+https://www.brainscape.com/packs?makeflashcards=true
+https://www.brainscape.com/flashcards/handbook-basic-types-7238636/packs/11785620
