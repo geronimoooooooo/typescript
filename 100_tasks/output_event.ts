@@ -14,5 +14,5 @@ The name between the <> on the EventEmitter is the type of thing that will be
 output by this property.
 
 createJoke(setup: string, punchline: string) {
-this.jokeCreated.emit(new Joke(setup, punchline));
+  this.jokeCreated.emit(new Joke(setup, punchline));
 }
