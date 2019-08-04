@@ -13,6 +13,8 @@ for (const i of list) {
    console.log(i); // "4", "5", "6"
 }
 
+<tr *ngFor="let item of getTodoItems(); let i = index">
+
 // for..in statement
 // iterate over the list of keys on the object being iterated
 for (const i in list) {
