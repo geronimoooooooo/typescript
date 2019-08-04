@@ -2,6 +2,7 @@ http://www.typescriptlang.org/docs/home.html
 https://www.tutorialspoint.com/typescript/index.htm
 https://howtodoinjava.com/typescript/typescript-tutorial/
 https://www.geeksforgeeks.org/hello-world-in-typescript-language/
+Sehr gutes Buch mit PDP auf github: https://basarat.gitbooks.io/typescript/
 
 https://www.tutorialsteacher.com/typescript/typescript-overview
 
