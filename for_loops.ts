@@ -28,14 +28,14 @@ https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html
 https://imasters.com/development/the-difference-between-for-of-and-for-in/?trace=1519021197&source=single
   
 const numbers = [1,2,3,4,5];
- for(let numbers of numbers) {
+ for(let number of numbers) {
   console.log(number);
  }
 
 // result: 1, 2, 3, 4, 5
 
 const numbers = [1,2,3,4,5];
-for(let number in number) {
+for(let number in numbers) {
  console.log(number);
 }
 
