@@ -1,6 +1,6 @@
 # Class
 https://www.typescriptlang.org/docs/handbook/classes.html#classes
-```typescript
+
 class Student {
     fullName: string;
     constructor(public firstName: string, public middleInitial: string, public lastName: string) {
@@ -70,7 +70,7 @@ console.log("My dogs name is " + myDog.name);
 /*Using name setter
 Using name accessor
 My dogs name is Sally*/
-```
+
 
 # Abstract Class
 https://www.typescriptlang.org/docs/handbook/classes.html#abstract-classes
