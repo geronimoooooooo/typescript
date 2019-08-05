@@ -1,5 +1,5 @@
  interface that describes objects.
- man muss nicht das implements nutzen. obkekt muss einfach der struktur entsprechen.
+ man muss nicht das implements nutzen. objekt muss einfach der struktur entsprechen.
  
  interface Person {
     firstName: string;
