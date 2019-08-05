@@ -1,2 +1,3 @@
 20.7 10:00-   https://www.typescriptlang.org/docs/home.html
 25.7 https://rmolinamir.github.io/typescript-cheatsheet/#generators
+27.8 https://www.brainscape.com/l/study?classes=8492918-5617922
