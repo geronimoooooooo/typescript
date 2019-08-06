@@ -11,7 +11,6 @@ let decimal: number = 6;
 let floater: number = 6.6;
 
 let fullName: string = `Bob Bobbington`;
-let age: number = 37;
 let sentence: string = `Hello, my name is ${ fullName }`.
 
 //any
@@ -28,11 +27,6 @@ const address: [string, number] = ["Street", 99];
 const numLivesForCat = 9;
 numLivesForCat = 1; // Error
 
-// union
-let myRealRealAge: number | string = 24;
-myRealRealAge = '24';
-// myRealRealAge = true // Not possible since myRealRealAge only accepts a number or a string.
-
 let sentence: string = "Hello, my name is " + fullName + ".\n\n" +
     "I'll be " + (age + 1) + " years old next month.";
 
@@ -46,9 +40,25 @@ console.log(rest); // outputs [ 2, 3, 4 ]
 let [first] = [1, 2, 3, 4];
 console.log(first); // outputs 1
 
+// union
+let myRealRealAge: number | string = 24;
+myRealRealAge = '24';
+// myRealRealAge = true // Not possible since myRealRealAge only accepts a number or a string.
+
 //If your array can hold two different types of objects you can do either of the following:
 var customers: Array<Customer | ExtendedCustomer>;
 var customers: (Customer | ExtendedCustomer)[];
+
+// Generics
+class Audio {
+}
+class Video {
+}
+class Post<T> {
+content: T;
+}
+let audioPost: Post<Audio>;
+let videoPost: Post<Video>;
 ############################################################
 greeting: string|number;
   constructor(message: string|number) {
