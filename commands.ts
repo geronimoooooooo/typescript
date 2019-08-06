@@ -2,6 +2,7 @@
 By default all generated files go in into src\app, no folder is created.
 
 npm install -g angular-cli          Install the CLI
+npm install --global @angular/cli@7.0.2
 ng -v, --version                    Check the Angular version    
 ng new project                      Creates a new project
 ng serve                            Serve our application using a local web-server
