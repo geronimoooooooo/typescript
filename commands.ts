@@ -21,9 +21,14 @@ ng g interface MyInterface          Creates MyInterface
 ng g enum MyEnum                    Creates MyEnum
 ng generate directive|pipe|service|class|guard|interface|enum|module
 
-
 npm install moment --save           Download and use moment.js as module/library in Angular application.
 npm install bootstrap@next          Install the bootstrap library via npm
 
-
 ng add @angular/material            Add material 
+
+
+---IONIC---
+List of all commands: https://ionicframework.com/docs/cli/commands/build
+
+npm install -g ionic@latest         Get latest ionic version.
+ionic <ommcand> --help              Show help to a command
