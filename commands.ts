@@ -31,6 +31,7 @@ ng add @angular/material            Add material
 https://ionicframework.com/docs/cli List of all commands
 
 npm install -g ionic@latest         Get latest ionic version
+ionic -v
 ionic --help                        Show help/commands
 ionic <ommcand> --help              
 ionic serve
