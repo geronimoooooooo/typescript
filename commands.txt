@@ -35,3 +35,7 @@ ionic -v
 ionic --help                        Show help/commands
 ionic <ommcand> --help              
 ionic serve
+
+---NODE---
+Hat npm dabei.
+node -v                             Show version
