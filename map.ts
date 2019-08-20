@@ -1,3 +1,5 @@
+https://howtodoinjava.com/typescript/maps/
+
 map keys to values. Maps record the order in which elements are inserted. 
 It then replays that order when looping over keys, values or entries.
 
