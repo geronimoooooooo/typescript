@@ -1,3 +1,4 @@
+add or remove an element from the DOM.
 *ngIf="<condition>"
 
 //The NgIf directive removes the li element from the DOM if person.age is less than 30.
