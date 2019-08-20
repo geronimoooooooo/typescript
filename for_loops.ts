@@ -63,3 +63,43 @@ for(let prop in House) {
 </li>
 </ul>
 ############################################################
+@Component({
+selector: 'ngfor-grouped-example',
+template: `
+<h4>NgFor (grouped)</h4>
+<ul *ngFor="let group of peopleByCountry"> ①
+<li>{{ group.country }}</li>
+<ul>
+<li *ngFor="let person of group.people"> ②
+{{ person.name }}
+</li>
+</ul>
+</ul>
+`
+})
+class NgForGroupedExampleComponent {
+peopleByCountry: any[] = [
+{
+'country': 'UK',
+'people': [
+{
+"name": "Douglas Pace"
+},
+{
+"name": "Mcleod Mueller"
+},
+]
+},
+{
+'country': 'US',
+'people': [
+{
+"name": "Day Meyers"
+},
+{
+"name": "Aguirre Ellis"
+},
+{
+"name": "Cook Tyson"
+}]}];}
+###################################################
