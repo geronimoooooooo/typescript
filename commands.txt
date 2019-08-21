@@ -1,7 +1,7 @@
 ---ANGULAR---
 By default all generated files go in into src\app, no folder is created.
 
-https://angular.io/cli
+>>>https://angular.io/cli
 npm install -g angular-cli          Install the CLI
 npm install --global @angular/cli@7.0.2
 ng -v, --version, version           Check the Angular version    
@@ -29,7 +29,7 @@ ng add @angular/material            Add material
 
 
 ---IONIC---
-https://ionicframework.com/docs/cli List of all commands
+>>>https://ionicframework.com/docs/cli List of all commands
 
 npm install -g ionic@latest         Get latest ionic version
 ionic -v
