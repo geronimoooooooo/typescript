@@ -12,7 +12,9 @@ add or remove an element from the DOM.
     Description: {{ product.description }}
   </p>
 ########################################
-
+<p *ngIf="product.price > 700">
+  <button>Notify Me</button>
+</p>
 ################################################
 
 ###################################
