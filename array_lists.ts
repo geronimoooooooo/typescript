@@ -1,5 +1,4 @@
 # Array
-
 let list: number[] = [1, 2, 3];
 let cards: string[] = ['Visa', 'Maste­rCa­rd'];
 
@@ -29,29 +28,22 @@ template: `
 `
 })
 class NgForGroupedExampleComponent {
-peopleByCountry: any[] = [
-{
-'country': 'UK',
+//peopleByCountry = [
+  peopleByCountry: any[] = [
+{'country': 'UK',
 'people': [
-{
-"name": "Douglas Pace"
+{"name": "Douglas Pace"
 },
-{
-"name": "Mcleod Mueller"
-},
+{"name": "Mcleod Mueller"},
 ]
-},
-{
+},{
 'country': 'US',
 'people': [
-{
-"name": "Day Meyers"
+{"name": "Day Meyers"
 },
-{
-"name": "Aguirre Ellis"
+  {"name": "Aguirre Ellis"
 },
-{
-"name": "Cook Tyson"
+{"name": "Cook Tyson"
 }]}];}
 #########################################################
 
