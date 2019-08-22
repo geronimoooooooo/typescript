@@ -54,6 +54,7 @@ Node hat npm dabei.
 node -v                             Show version
 npm list -g --depth=0
 npm -v
+npm install -g npm@latest
 
 ################### Git ###################
 git --version
