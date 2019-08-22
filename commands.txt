@@ -1,10 +1,21 @@
----ANGULAR---
+################### ANGULAR ###################
 By default all generated files go in into src\app, no folder is created.
 
 >>>https://angular.io/cli
+NUR wenn man in einem Angular project drin ist, wird die Angular version angegeben, ansonsten sieht man nur die von CLI.
 npm install -g angular-cli          Install the CLI
 npm install --global @angular/cli@7.0.2
-ng -v, --version, version           Check the Angular version    
+ng -v, v, --version, version        Must be admin. Check the Angular version    
+
+npm install -g @angular/cli         globally--> C:\Users\admin\AppData\Roaming\npm\node_modules
+npm install @angular/cli            local for user--> C:\Users\specificUser\AppData\Roaming\npm\node_modules
+
+To update Angular CLI to a new version, you must update both the global package and your project's local package.
+To uninstall it globally just run below command:
+npm uninstall -g @angular/cli       globally 
+npm uninstall @angular/cli          local 
+
+ng update @angular/cli @angular/core    Updates your application and its dependencies. Man muss dabei aber in einem Projektordner drin sein. (in der console warten)
 
 ng new <projectName>                Creates a new project
 ng serve                            Serve our application using a local web-server
@@ -21,6 +32,7 @@ ng g class MyClass                  Creates MyClass
 ng g interface MyInterface          Creates MyInterface
 ng g enum MyEnum                    Creates MyEnum
 ng generate directive|pipe|service|class|guard|interface|enum|module
+ng generate service message --module=app    wird somit gleich in app.module.ts mitangegeben
 
 npm install moment --save           Download and use moment.js as module/library in Angular application.
 npm install bootstrap@next          Install the bootstrap library via npm
@@ -28,7 +40,7 @@ npm install bootstrap@next          Install the bootstrap library via npm
 ng add @angular/material            Add material 
 
 
----IONIC---
+################### IONIC ###################
 >>>https://ionicframework.com/docs/cli List of all commands
 
 npm install -g ionic@latest         Get latest ionic version
@@ -37,6 +49,13 @@ ionic --help                        Show help/commands
 ionic <ommcand> --help              
 ionic serve
 
----NODE---
-Hat npm dabei.
+################### NODE/NPM ###################
+Node hat npm dabei.
 node -v                             Show version
+npm list -g --depth=0
+npm -v
+
+################### Git ###################
+git --version
+
+
