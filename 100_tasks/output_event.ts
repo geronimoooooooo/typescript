@@ -15,3 +15,23 @@ class JokeFormComponent {
 createJoke(setup: string, punchline: string) {
   this.jokeCreated.emit(new Joke(setup, punchline));
 }
+#################################################################
+export class ProductAlertsComponent { //child
+  @Input() product;
+  @Output() notify = new EventEmitter();
+}
+<p *ngIf="product.price > 700">
+  <button (click)="notify.emit()">Notify Me</button>
+</p>
+
+
+//following in parent comp
+onNotify() {
+    window.alert('You will be notified when the product goes on sale');
+  }
+
+<app-product-alerts
+  [product]="product" 
+  (notify)="onNotify()">
+</app-product-alerts
+###################################################################
