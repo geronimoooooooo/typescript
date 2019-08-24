@@ -1,3 +1,3 @@
-# typescript
+# Angular, typescript, Ionic
 
-100 most common tasks in typescript.
+Most common tasks, code snippets for Angular, TypeScript, and Ionic.
