@@ -70,7 +70,15 @@ console.log("My dogs name is " + myDog.name);
 /*Using name setter
 Using name accessor
 My dogs name is Sally*/
-
+########################################################
+export class Hero {
+  id: number;
+  name: string;
+}
+hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
 
 ########################################################
 Abstract Class
