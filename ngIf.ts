@@ -3,9 +3,9 @@ add or remove an element from the DOM.
 
 //The NgIf directive removes the li element from the DOM if person.age is less than 30.
 <ul *ngFor="let person of people">
-<li *ngIf="person.age < 30">
-{{ person.name }} ({{ person.age }})
-</li>
+    <li *ngIf="person.age < 30">
+        {{ person.name }} ({{ person.age }})
+    </li>
 </ul>
 ######################################
 <p *ngIf="product.description">
@@ -16,7 +16,15 @@ add or remove an element from the DOM.
   <button>Notify Me</button>
 </p>
 ################################################
+<div *ngIf="messageService.messages.length">
 
+  <h2>Messages</h2>
+  <button class="clear"
+          (click)="messageService.clear()">clear</button>
+  <div *ngFor='let message of messageService.messages'> 
+      {{message}} 
+  </div>
+</div>
 ###################################
 
 ###############################################
