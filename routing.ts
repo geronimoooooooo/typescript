@@ -22,3 +22,8 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 #######################################################
+<h1>{{title}}</h1>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
+The <router-outlet> tells the router where to display routed views.
