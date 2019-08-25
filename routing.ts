@@ -13,6 +13,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'heroes', component: HeroesComponent }
 ];
 
@@ -33,3 +36,9 @@ The <router-outlet> tells the router where to display routed views.
 </nav>
 <router-outlet></router-outlet>
 ##################################################
+<a *ngFor="let hero of heroes" class="col-1-4"
+    routerLink="/detail/{{hero.id}}">
+  <div class="module hero">
+    <h4>{{hero.name}}</h4>
+  </div>
+</a>
