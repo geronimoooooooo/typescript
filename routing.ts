@@ -27,3 +27,9 @@ export class AppRoutingModule { }
 <app-messages></app-messages>
 
 The <router-outlet> tells the router where to display routed views.
+##################################################################
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+##################################################
