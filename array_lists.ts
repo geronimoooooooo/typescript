@@ -1,4 +1,5 @@
 # Array
+messages: string[] = [];
 let list: number[] = [1, 2, 3];
 let cards: string[] = ['Visa', 'Maste­rCa­rd'];
 
